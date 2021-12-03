@@ -10,6 +10,10 @@ package Decorator;
  * @author Danaé
  */
 public class Signal extends Extra{
+
+    public Signal(Notificacion notificacion) {
+        super(notificacion);
+    }
     
     // Decorator 2
     

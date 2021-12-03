@@ -10,6 +10,10 @@ package Decorator;
  * @author Danaé
  */
 public class Telegram extends Extra{
+
+    public Telegram(Notificacion notificacion) {
+        super(notificacion);
+    }
     
     // Decorator 4
     
