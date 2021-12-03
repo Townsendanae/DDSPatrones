@@ -11,8 +11,13 @@ package Decorator;
  */
 public abstract class Extra implements Notificacion{
     
-    Notificacion notificacion;
+    private Notificacion notificacion;
     // Base de Decorator 
+    
+    public Extra(Notificacion notificacion){
+        // constructor
+    }
+            
     
     public void notificacion() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
