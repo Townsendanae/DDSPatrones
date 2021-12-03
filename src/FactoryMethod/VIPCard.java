@@ -9,6 +9,7 @@ package FactoryMethod;
  *
  * @author Danaé
  */
-public class VIPCard {
-    
+public class VIPCard implements Card {
+    private Double costo;
+    private Double limite; 
 }

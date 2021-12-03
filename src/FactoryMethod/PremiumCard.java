@@ -9,6 +9,8 @@ package FactoryMethod;
  *
  * @author Danaé
  */
-public class PremiumCard {
+public class PremiumCard implements Card{
+    private Double costo;
+    private Double limite; 
     
 }
