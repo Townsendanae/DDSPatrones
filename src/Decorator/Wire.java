@@ -17,6 +17,7 @@ public class Wire extends Extra {
     
     // Decorator 3
     
+    @Override
     public void notificacion() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

@@ -7,10 +7,13 @@ package Facade;
 
 /**
  *
- * @author Danaé
+ * @author Personal
  */
-public interface AtencionVirtual {
+public class AtencionWeb implements AtencionVirtual{
+    private int numTransacciones;
     
-    public void atencion();
-    
+    @Override
+    public void atencion(){
+        
+    }
 }
