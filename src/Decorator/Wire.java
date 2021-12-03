@@ -10,6 +10,10 @@ package Decorator;
  * @author Danaé
  */
 public class Wire extends Extra {
+
+    public Wire(Notificacion notificacion) {
+        super(notificacion);
+    }
     
     // Decorator 3
     

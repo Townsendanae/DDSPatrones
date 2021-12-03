@@ -10,6 +10,10 @@ package Decorator;
  * @author Danaé
  */
 public class WhatsApp extends Extra {
+
+    public WhatsApp(Notificacion notificacion) {    
+        super(notificacion);
+    }
     
     // Decorator 1 
     

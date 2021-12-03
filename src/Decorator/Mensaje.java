@@ -13,6 +13,7 @@ public class Mensaje implements Notificacion {
 
     @Override
     public void notificacion() {
+        // Enviar SMS y correo electrónico 
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
